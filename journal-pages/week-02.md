@@ -20,45 +20,71 @@ layout: default
  
  We began by learning how p5.js works, starting with an overview of the interface before diving into its two core functions: the Setup function and the Draw function.
  
- The Setup function runs only once when the program starts. Within it, the create canvas  function defines the size of the canvas which is the space where your code will come to life.
-
+ ### The Setup function
+ This function runs only once when the program starts. Within it, the create canvas  function defines the size of the canvas which is the space where your code will come to life.
+![example screenshot of setup function](../assets/week-02/setupfunction2.png)
+*Example Screenshot of Setup Function*
     
- The Draw function runs continuously throughout the program, looping until the program is stopped. This is where most of the visual action happens.
-![example screenshot of draw function](../assets/week-02/drawfunction.png)
+### The Draw function 
+ This function runs continuously throughout the program, looping until the program is stopped. This is where most of the visual action happens.
+![example screenshot of draw function](../assets/week-02/drawfunction2.png)
 *Example Screenshot of Draw Function*
     
  P5.js also operates within a coordinate space, using x and y values to determine the position of elements. Notably, the origin point (0, 0) sits in the top-left corner of the canvas, rather than the bottom-left as you might expect from a traditional graph.
 
 ## My Experiments in Class
 
- Warm Up Experiment
+### Warm Up Experiment
 ![example screenshot of warm up experiment](../assets/week-02/warmup.png)
 *Example Screenshot of Warm Up Experiment* 
 
- Size Variable
+### Size Variable
 ![example screenshot of size function](../assets/week-02/variablesize.png)
 *Example Screenshot of Experimenting with Size* 
 
- Position Variable
+### Position Variable
 ![example gif of pos function](../assets/week-02/posvariable.gif)
 *Example GIF of Experimenting with Position*
 
- Mouse X & Y
+### Mouse X & Y
 ![example gif of mouse x and y](../assets/week-02/mousexy.gif)
 *Example GIF of Experimenting with Mouse X & Y*
  
- Conditionals If & Else
+### Conditionals If & Else
 ![example gif of conditional if and else](../assets/week-02/mousexy.gif)
 *Example GIF of Experimenting with Mouse X & Y*
 
- Button
+### Button
 ![example gif of button](../assets/week-02/button.gif)
 *Example GIF of Button*
 
- Slider
+### Slider
 ![example gif of slider](../assets/week-02/slider.gif)
 *Example GIF of Slider*
 
+### Text Input
+![example gif of text input](../assets/week-02/textinput.gif)
+*Example GIF of Text Input*
+
+### Making an Interactive Sketch
+ Using what I had learned from the previous exercises, I created an interactive sketch using at least two DOM elements to control elements on the canvas. I began with a drawing sketch that included a button to clear the canvas and a slider to adjust the size of the circle but I also wanted to take it a step further by adding a colour picker to change the circle's colour.
+![example gif of my interactive drawing sketch](../assets/week-02/drawing2.gif)
+*Example GIF of my Interactive Drawing Sketch*
+
+## Vibe Coding
+ Vibe Coding is an approach to building code where you describe what you want to an AI language model and then ask it to generate the code for you. We were encouraged to experiment with tools like ChatGPT, Claude, and Gemini to create more ambitious interactive sketches. Down below are some examples of my Vibe Coding projects using the language mode Claude.
+
+### Bouncy Ball
+![example gif of bouncy ball](../assets/week-02/bouncyball.gif)
+*Example GIF of Bouncy Ball*
+
+### Fractal Tree
+![example gif of fractal tree](../assets/week-02/tree.gif)
+*Example GIF of Fractal Tree*
+
+### Fireworks
+![example gif of fireworks](../assets/week-02/fireworks.gif)
+*Example GIF of Fireworks*
 
 
 ## AI Usage Statement
