@@ -92,12 +92,28 @@ layout: default
 ### Step One: Make Your First Object
  We started by defining a flower by bundling the canvas coordinates with the emoji as well as adding in a command in the setup to print the flower in the console.
 ### Defining the Flower
-<iframe src="https://editor.p5js.org/akim318/full/1tkdXJsPU" width="600" height="400"></iframe>
+<iframe src="https://editor.p5js.org/akim318/full/1tkdXJsPU" width="500" height="500"></iframe>
 
-### Printing the Flower in the Console
-![example screenshot of the console flower](../assets/week-02/consoleflower.png)
-*Example Screenshot of the Flower Printed in the Console*
+### Setting the Background Blue
+<iframe src="https://editor.p5js.org/akim318/full/k7y0n_8kZ" width="500" height="500"></iframe>
 
+### Using the Object
+<iframe src="https://editor.p5js.org/akim318/full/ZMS4QL72I" width="500" height="500"></iframe>
+
+### Define the Create Function
+<iframe src="https://editor.p5js.org/akim318/full/qFA_2hJzs" width="500" height="500"></iframe>
+
+### Define the Draw Function with a Parameter
+<iframe src="https://editor.p5js.org/akim318/full/2dFOD3v6p" width="500" height="500"></iframe>
+
+### Using Arrays
+<iframe src="https://editor.p5js.org/akim318/full/S1xhg9xV8" width="500" height="500"></iframe>
+
+### Update the Array
+<iframe src="https://editor.p5js.org/akim318/full/WkiNWM3hp" width="500" height="500"></iframe>
+
+### Adding More Flowers
+<iframe src="https://editor.p5js.org/akim318/full/d7pemirtb" width="500" height="500"></iframe>
 
 ## AI Usage Statement
 
