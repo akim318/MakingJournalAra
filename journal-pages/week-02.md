@@ -86,6 +86,18 @@ layout: default
 ![example gif of fireworks](../assets/week-02/fireworks.gif)
 *Example GIF of Fireworks*
 
+## Independent Study: Week 2
+ Our task this week was to use the p5.js reference and tutorials to further our exploration into new techniques. I decided to follow the Data Structure Garden Tutorial by Portia Morrell, Jaleesa Trapp and Kate Maschmeyer. Tutorial description: In this tutorial, you will use p5.js to simulate an interactive flower garden. In this project, your digital canvas will come to life with 20 randomly generated flowers, each a different color and size. Users can also add diversity to the garden by clicking on the canvas to add new, unique flowers. Each flower is programmed with a wilting animation. This animation causes the flowers to slowly shrink and vanish, much like the natural cycle of a flower’s life.
+
+### Step One: Make Your First Object
+ We started by defining a flower by bundling the canvas coordinates with the emoji as well as adding in a command in the setup to print the flower in the console.
+### Defining the Flower
+<iframe src="https://editor.p5js.org/akim318/full/1tkdXJsPU" width="600" height="400"></iframe>
+
+### Printing the Flower in the Console
+![example screenshot of the console flower](../assets/week-02/consoleflower.png)
+*Example Screenshot of the Flower Printed in the Console*
+
 
 ## AI Usage Statement
 
