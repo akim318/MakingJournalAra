@@ -44,7 +44,7 @@ layout: default
 *Example GIF of Experimenting with Position*
 
  Mouse X & Y
-![example gif of mouse x and y](..assets/week-02/mousexy.gif)
+![example gif of mouse x and y](../assets/week-02/mousexy.gif)
 *Example GIF of Experimenting with Mouse X & Y*
  
  Conditionals If & Else
