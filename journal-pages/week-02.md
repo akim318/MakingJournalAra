@@ -16,34 +16,51 @@ layout: default
     What choices did you make about the visualisation?
 
 ## P5.JS
-    We began by learning how p5.js works, starting with an overview of the interface before diving into its two core functions: the Setup function and the Draw function.
-
-    The Setup function runs only once when the program starts. Within it, the create canvas  function defines the size of the canvas which is the space where your code will come to life.
-
+ We began by learning how p5.js works, starting with an overview of the interface before diving into its two core functions: the Setup function and the Draw function.
+ 
+ We began by learning how p5.js works, starting with an overview of the interface before diving into its two core functions: the Setup function and the Draw function.
+ 
+ The Setup function runs only once when the program starts. Within it, the create canvas  function defines the size of the canvas which is the space where your code will come to life.
 ![example screenshot of setup function](..assets/week-02/setupfunction.png)
 *Example Screenshot of Setup Function*
     
-    The Draw function runs continuously throughout the program, looping until the program is stopped. This is where most of the visual action happens.
-
+ The Draw function runs continuously throughout the program, looping until the program is stopped. This is where most of the visual action happens.
 ![example screenshot of draw function](..assets/week-02/drawfunction.png)
 *Example Screenshot of Draw Function*
     
-    P5.js also operates within a coordinate space, using x and y values to determine the position of elements. Notably, the origin point (0, 0) sits in the top-left corner of the canvas, rather than the bottom-left as you might expect from a traditional graph.
+ P5.js also operates within a coordinate space, using x and y values to determine the position of elements. Notably, the origin point (0, 0) sits in the top-left corner of the canvas, rather than the bottom-left as you might expect from a traditional graph.
+
+## My Experiments in Class
+
+ Warm Up Experiment
+![example screenshot of warm up experiment](..assets/week-02/warmup.png)
+*Example Screenshot of Warm Up Experiment* 
+
+ Size Variable
+![example screenshot of size function](..assets/week-02/variablesize.png)
+*Example Screenshot of Experimenting with Size* 
+
+ Position Variable
+![example gif of pos function](..assets/week-02/posvariable.gif)
+*Example GIF of Experimenting with Position*
+
+ Mouse X & Y
+![example gif of mouse x and y](..assets/week-02/mousexy.gif)
+*Example GIF of Experimenting with Mouse X & Y*
+ 
+ Conditionals If & Else
+![example gif of conditional if and else](..assets/week-02/mousexy.gif)
+*Example GIF of Experimenting with Mouse X & Y*
+
+ Button
+![example gif of button](..assets/week-02/button.gif)
+*Example GIF of Button*
+
+ Slider
+![example gif of slider](..assets/week-02/slider.gif)
+*Example GIF of Slider*
 
 
-
-
-## Images & Media
-
-*Use the format below to embed images from your assets folder:*
-
-
-
-![Alt text](../assets/week-02/drawing.gif)
-*GIF of my drawing project working*
-
-
-*The text inside the square brackets is alt text (a description for accessibility), not a visible caption. To add a caption, place a line of italic text below the image.*
 
 ## AI Usage Statement
 
