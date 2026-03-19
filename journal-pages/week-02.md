@@ -6,9 +6,20 @@ layout: default
 
 [← Back to Home](../index.md)
 
-## Documentation 
+## Introduction
+ Hello and welcome to Week Two of DES250: Designing with Data! This week we began our second in class experiment, focused on Interactivity. As a class, we explored p5.js, a creative coding program, to experience the fundamentals of programming and bridge the gap between physical materials and digital expression. Our experiments included sketching, working with DOM (Document Object Model) elements such as buttons, sliders, and text inputs, and trying out a new approach called 'vibe coding' a method that uses AI language models to assist in building programs.
 
-*Include your documentation for the week. Devise your own structure of headings relevant to the required tasks and your process.*
+ ## Building onto Last Week's Experiments
+ Last week, we were introduced to Designing with Data through an experiment called the Independent Data Portrait. The class was split into groups of 4–5 and asked to collect personal data from one another to create hand-drawn data visualisation portraits. This week, before beginning our second experiment, we revisited that work by asking our teammates a few reflection questions about their own personal portraits:
+    What did you track?
+    What did you notice?
+    What choices did you make about the visualisation?
+
+## P5.JS
+
+
+
+
 
 ## Images & Media
 
