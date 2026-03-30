@@ -21,7 +21,7 @@ layout: default
 ### How Would You Develop Further With More Time?
  I would expand the plane of data collected. I could look into also collecting the time of day, the day of the week, the message length or even response times to further visually showcase my behavioural patterns with communication. 
 
- <iframe src="https://editor.p5js.org/akim318/full/enFpI3-Mq" height="500" width="500"></iframe>
+ <iframe src="https://editor.p5js.org/akim318/full/KFXq54k6S" height="500" width="600"></iframe>
 
 ## Artifical Intelligence
  We began by discussing how we personally use AI and what implications it could have on design. Many people felt that AI has the potential to streamline the design process, particularly by assisting with the more technical groundwork that happens before the creative work begins.
