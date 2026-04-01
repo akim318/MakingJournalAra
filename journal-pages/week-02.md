@@ -17,92 +17,76 @@ layout: default
   
 ### The Setup function
  This function runs only once when the program starts. Within it, the create canvas  function defines the size of the canvas which is the space where your code will come to life.
-![example screenshot of setup function](../assets/week-02/setupfunction2.png)
-*Example Screenshot of Setup Function*
+ ![example screenshot of setup function](../assets/week-02/setupfunction2.png)
+ *Example Screenshot of Setup Function*
     
 ### The Draw function 
  This function runs continuously throughout the program, looping until the program is stopped. This is where most of the visual action happens.
-![example screenshot of draw function](../assets/week-02/drawfunction2.png)
-*Example Screenshot of Draw Function*
+ ![example screenshot of draw function](../assets/week-02/drawfunction2.png)
+ *Example Screenshot of Draw Function*
     
  P5.js also operates within a coordinate space, using x and y values to determine the position of elements. Notably, the origin point (0, 0) sits in the top-left corner of the canvas, rather than the bottom-left as you might expect from a traditional graph.
 
 ## My Experiments in Class
 ### Warm Up Experiment
-![example screenshot of warm up experiment](../assets/week-02/warmup.png)
-*Example Screenshot of Warm Up Experiment* 
+ ![example screenshot of warm up experiment](../assets/week-02/warmup.png)
+ *Example Screenshot of Warm Up Experiment* 
 
 ### Size Variable
-![example screenshot of size function](../assets/week-02/variablesize.png)
-*Example Screenshot of Experimenting with Size* 
+ ![example screenshot of size function](../assets/week-02/variablesize.png)
+ *Example Screenshot of Experimenting with Size* 
 
 ### Position Variable
-![example gif of pos function](../assets/week-02/posvariable.gif)
-*Example GIF of Experimenting with Position*
+ ![example gif of pos function](../assets/week-02/posvariable.gif)
+ *Example GIF of Experimenting with Position*
 
 ### Mouse X & Y
-![example gif of mouse x and y](../assets/week-02/mousexy.gif)
-*Example GIF of Experimenting with Mouse X & Y*
+ ![example gif of mouse x and y](../assets/week-02/mousexy.gif)
+ *Example GIF of Experimenting with Mouse X & Y*
  
 ### Conditionals If & Else
-![example gif of conditional if and else](../assets/week-02/mousexy.gif)
-*Example GIF of Experimenting with Mouse X & Y*
+ ![example gif of conditional if and else](../assets/week-02/mousexy.gif)
+ *Example GIF of Experimenting with Mouse X & Y*
 
 ### Button
-![example gif of button](../assets/week-02/button.gif)
-*Example GIF of Button*
+ ![example gif of button](../assets/week-02/button.gif)
+ *Example GIF of Button*
 
 ### Slider
-![example gif of slider](../assets/week-02/slider.gif)
-*Example GIF of Slider*
+ ![example gif of slider](../assets/week-02/slider.gif)
+ *Example GIF of Slider*
 
 ### Text Input
-![example gif of text input](../assets/week-02/textinput.gif)
-*Example GIF of Text Input*
+ ![example gif of text input](../assets/week-02/textinput.gif)
+ *Example GIF of Text Input*
 
 ## Vibe Coding
  Vibe Coding is an approach to building code where you describe what you want to an AI language model and then ask it to generate the code for you. We were encouraged to experiment with tools like ChatGPT, Claude, and Gemini to create more ambitious interactive sketches. Down below are some examples of my Vibe Coding projects using the language mode Claude.
 
 ### Bouncy Ball
-![example gif of bouncy ball](../assets/week-02/bouncyball.gif)
-*Example GIF of Bouncy Ball*
+ This sketch creates a bouncing ball that bounces around the edges of the canvas, changing direction each time it hits an wall. Every time the ball bounces, its colour randomises. This sketch uses conditional statements to detect when the ball reaches the boundary of the canvas and send it in the opposite direction. 
 
-### Fractal Tree
+ <iframe src="https://editor.p5js.org/akim318/full/U11SoyUWX" height="500" width="600"></iframe>
 
-![example gif of fractal tree](../assets/week-02/tree.gif)
-*Example GIF of Fractal Tree*
+ *P5.JS Embed of Vibe Coding Bouncy Ball Experiment*
+
 
 ### Fireworks
-    Builds on the experiment we did in class, mouse x and y coordinates
-    Also combines the position variable, as well as the conditions if and when.
-    Each little dot is a data point, cool to see them move around the project space.//REWRITE THIS
-![example gif of fireworks](../assets/week-02/fireworks.gif)
-*Example GIF of Fireworks*
+ This sketch builds directly on the mouse tracking exercise from class, but takes it further by combining several concepts together. The x and y coordinates of the mouse are used as the core data input, which are then paired with positional variables and conditional logic, if and when statements that determine how and where elements appear on the canvas based on where the mouse is. As you move the mouse around, the dots respond in real time.
+
+ <iframe src="https://editor.p5js.org/akim318/full/_4ek6mL_s" height="500" width="600"></iframe>
+  
+  *P5.JS Embed of Vibe Coding Fireworks Experiment*
 
 ## Independent Study: Week 2
- Our task this week was to use the p5.js reference and tutorials to further our exploration into new techniques. I decided to use all the all 
+ Our independent study task this week was to use the P5.JS reference and tutorials to explore new techniques, and to translate the hand-drawn data portrait from Experiment 1 into an interactive P5.JS sketch. Because I had missed the previous class and didn't have data from that experiment, I focused instead on continuing to develop the projects we had started in class and refining them further.
 
  ### Making an Interactive Sketch
+ Drawing on what I'd learned from the exercises we did in class, I created an interactive sketch using DOM elements to control what appeared on the canvas. The sketch works as a simple drawing app, as you move the mouse circles follow its path, acting as a pen. I built it up in stages. I started with the mouse x and y tracking code from class as the foundation, then added a clear button so the user could wipe the canvas and start fresh. From there I brought in the slider code we'd written previously and connected it to the circle drawing logic so it could control the size of the circles being drawn. Finally, I added a colour picker so the user could change the colour of the pen while drawing (the colours are randomised from red, green and blue). The main challenge was figuring out how to connect each DOM element to the right property on the canvas.
 
- Using what I had learned from the previous exercises, I created an interactive sketch using at least two DOM elements to control elements on the canvas. I began with a drawing sketch that included a button to clear the canvas and a slider to adjust the size of the circle but I also wanted to take it a step further by adding a colour picker to change the circle's colour.
+ <iframe src="https://editor.p5js.org/akim318/full/jYYyiikt0" height="500" width="600"></iframe>
 
-I started by reusing the mouse X and Y code we wrote earlier as the foundation for the sketch. I wanted this function to acts as the 'pen' so that as you move the mouse, the circles follow its path, allowing you to draw on the screen. For my buttons, I wanted to specifically add two; a 'clear' button to let the user clear their canvas for a clean slate and another button called 'change colour' so that when the button is pressed, the colour of the circle itself changes it colour. 
-
-I didnt have too much trouble, the only thing that was difficult was to 
-
-
-
-Next, I copied the slider code we had previously written and worked out how to connect it to the circle-drawing logic, so the slider could control a property of the circles being produced.
-Finally, I added a colour button to change the colour of the circles while drawing.
-
-
- 
-![example gif of my interactive drawing sketch](../assets/week-02/drawing2.gif)
-*Example GIF of my Interactive Drawing Sketch*
-
-//add the p5.js embed 
-
-
+ *P5.JS Embed of My Interactive Sketch*
 
 ## Reflection
 

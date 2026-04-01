@@ -12,7 +12,6 @@ layout: default
 
 
 
-
 ## Independent Study
  i decided to track how many times
 

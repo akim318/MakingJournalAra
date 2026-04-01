@@ -66,14 +66,24 @@ layout: default
  *Screenshot of Weather Only Showing Location, Temperature and Weather Conditions using Emojis*
 
 ### Definitions
- ![screenshot of dictionary](../assets/week-03/defineddesign.png)
+ ![screenshot of dictionary](../assets/week-03/definedesign.png)
  *Screenshot of Dictionary Definition of Design*
 
 ## Weather visulisation
+ The sketch shows live weather data to visual properties:
+ Temperature: Size of the ellipse
+ Wind Speed: Stroke weight of the line
+ Humidity: Background colour
+ 
+ <iframe src="https://editor.p5js.org/akim318/full/UQ8d66WPb" height="500" width="600"></iframe>
 
+ *P5.JS Embed of Visualisation of Current Weather Data*
 
+ The ISS tracker shows live location data of the International Space Station. Because the station is constantly moving, the coordinates change every time you reload.
 
-
+ <iframe src="https://editor.p5js.org/akim318/full/EZ2P1C-LP" height="500" width="600"></iframe>
+  
+  *P5.JS Embed of International Space Station Live Data Tracker*
 
 ## Design and Execute a Data Protocol
 ### Our Protocol
