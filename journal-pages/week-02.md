@@ -14,9 +14,7 @@ layout: default
 
 ## P5.JS
  We began by learning how p5.js works, starting with an overview of the interface before diving into its two core functions: the Setup function and the Draw function.
- 
- We began by learning how p5.js works, starting with an overview of the interface before diving into its two core functions: the Setup function and the Draw function.
- 
+  
 ### The Setup function
  This function runs only once when the program starts. Within it, the create canvas  function defines the size of the canvas which is the space where your code will come to life.
 ![example screenshot of setup function](../assets/week-02/setupfunction2.png)

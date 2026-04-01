@@ -8,6 +8,19 @@ layout: default
 
 ## Documentation 
 
+ i was not in the class as i had to change around my timetable, i had to fugure out my class schedule so i missed out on the class experiments but i tried to do them myself by looking at the class slides.
+
+
+
+
+## Independent Study
+ i decided to track how many times
+
+
+ collecting the data was very confusing/hard to keep up with because i had to constantly remember tyo writye 
+
+
+
 *Include your documentation for the week. Devise your own structure of headings relevant to the required tasks and your process.*
 
 ## Images & Media
