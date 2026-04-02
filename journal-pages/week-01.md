@@ -52,7 +52,5 @@ layout: default
 
  I chose this because I knew that if I wanted to produce a visually interesting data portrait, I'd need a decent volume of data, enough to work with a variety of colours and shapes, which was how I was planning to represent it. It also turned out to be easy to collect without constantly having to think about it. I already make a todo list at the start of each work day, so recording my data was essentially just happening as a byproduct of doing my job normally. For the portrait itself, I used different colours to represent different task types and varied the shapes to make it more visually interesting. I wanted it to feel rich and layered rather than just a grid of identical marks.
 
-
 ## AI Usage Statement
-
-*Document any use of AI tools under an AI Usage Statement heading. Explain which tools you used and describe how you used them. Reference any AI-generated content (see [QuickCite](https://auckland.libguides.com/referencing-generative-ai-tools) for guidance).*
+ Anthropic. (2026). Claude (Sonnet 4.6) [AI Language Model]. Claude.AI. https://claude.ai/login

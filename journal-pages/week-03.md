@@ -136,5 +136,4 @@ layout: default
  I chose to make this data visulisation digitally as I has help from AI and new different tools introduced in class. Normally in a situation like this, I would pick the physical option because I find coding difficult and time consuming even with prior experience. But having Claude to help with the P5.JS side gave me the confidence to take the digital route and actually work through problems I would have otherwise avoided.
 
 ## AI Usage Statement
-
-*Document any use of AI tools under an AI Usage Statement heading. Explain which tools you used and describe how you used them. Reference any AI-generated content (see [QuickCite](https://auckland.libguides.com/referencing-generative-ai-tools) for guidance).*
+ Anthropic. (2026). Claude (Sonnet 4.6) [AI Language Model]. Claude.AI. https://claude.ai/login
