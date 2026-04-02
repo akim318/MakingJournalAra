@@ -81,7 +81,7 @@ layout: default
 ## Independent Study: Week 2
  Our independent study task this week was to use the P5.JS reference and tutorials to explore new techniques, and to translate the hand-drawn data portrait from Experiment 1 into an interactive P5.JS sketch. Because I had missed the previous class and didn't have data from that experiment, I focused instead on continuing to develop the projects we had started in class and refining them further.
 
- ### Making an Interactive Sketch
+### Making an Interactive Sketch
  Drawing on what I'd learned from the exercises we did in class, I created an interactive sketch using DOM elements to control what appeared on the canvas. The sketch works as a simple drawing app, as you move the mouse circles follow its path, acting as a pen. I built it up in stages. I started with the mouse x and y tracking code from class as the foundation, then added a clear button so the user could wipe the canvas and start fresh. From there I brought in the slider code we'd written previously and connected it to the circle drawing logic so it could control the size of the circles being drawn. Finally, I added a colour picker so the user could change the colour of the pen while drawing (the colours are randomised from red, green and blue). The main challenge was figuring out how to connect each DOM element to the right property on the canvas.
 
  <iframe src="https://editor.p5js.org/akim318/full/jYYyiikt0" height="500" width="600"></iframe>
@@ -89,9 +89,7 @@ layout: default
  *P5.JS Embed of My Interactive Sketch*
 
 ## Reflection
-
-
-
+ Because I missed the class where Experiment 1 took place, I didn't have data portrait to work with. Rather than skip the exercise entirely, I focused on building an interactive sketch that still engaged with the core ideas, using visual properties like size, colour, and position. It wasn't the intended starting point, but it meant I still worked through the same fundamental questions about how to translate data into something visual and interactive. I chose DOM elements that each controlled a distinct visual property. I used Claude to help build features that went beyond what we covered in class. I could describe what I wanted to control and work through the logic conversationally. If I had more time with this project, the first thing I would fix is the drawing mechanic. Currently the sketch generates circles continuously wherever the cursor is, rather than only when the mouse is held down, so not quite like a traditional drawing app. Missing the first class made this week harder, but working through the independent study tasks on my own still gave me a solid grounding. Going through the slides and talking to classmates helped me fill in the gaps. More broadly, this week made me more confident about choosing the digital approach for future projects, knowing that I have tools like Claude to help with the coding side means I don't have to default to physical just because it feels safer.
 
 ## AI Usage Statement
 

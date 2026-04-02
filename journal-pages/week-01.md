@@ -6,11 +6,8 @@ layout: default
 
 [← Back to Home](../index.md)
 
-## Documentation 
-
- i was not in the class as i had to change around my timetable, i had to fugure out my class schedule so i missed out on the class experiments but i tried to do them myself by looking at the class slides.
-
-
+## Introduction 
+ I wasn't present for this class as there was an issue with my degree planning which took time to figure out. To make sure I wasn't behind, I went through the lecture slides and asked classmates to fill me in before the following week. In the meantime, I worked through the independent study tasks on my own so I could still make progress.
 
 ## Independent Study
  i decided to track how many times
@@ -18,18 +15,6 @@ layout: default
 
  collecting the data was very confusing/hard to keep up with because i had to constantly remember tyo writye 
 
-
-
-*Include your documentation for the week. Devise your own structure of headings relevant to the required tasks and your process.*
-
-## Images & Media
-
-*Use the format below to embed images from your assets folder:*
-
-`![Alt text](../assets/week-01/your-image.jpg)`
-`*Your caption here*`
-
-*The text inside the square brackets is alt text (a description for accessibility), not a visible caption. To add a caption, place a line of italic text below the image.*
 
 ## AI Usage Statement
 
