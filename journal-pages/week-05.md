@@ -18,5 +18,5 @@ My thematic focus is that gap between data existing and people caring. I am draw
 
 The final artefact will be a slowly shifting, screen based colour field visualisation, a living painting driven by real data. Animal movement and environmental conditions will translate directly into colour, saturation, and flow, changing continuously in real time. No map, no legend, no chart, just the ocean breathing. The choice of beauty as the mode of representation is itself the critical argument: if data is the most honest version of life, it deserves to be seen that way. Something functional can be dismissed. Something you would hang on your wall and return to cannot. The question for a public audience is not whether they understand the data, it is whether they feel it. Because feeling it is what changes behaviour. The researchers had the data, what the whales needed was for the right people to care.
 
-## Referencess
+## References
 Kassam, A. (2022, February 7). “Giant obstacle course”: call to reroute major shipping lanes to protect blue whales. The Guardian. https://www.theguardian.com/environment/2022/feb/07/change-lane-whales-ahead-sri-lanka-urged-to-reroute-shipping-traffic
