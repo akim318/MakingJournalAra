@@ -103,8 +103,148 @@ layout: default
  I began the technical side of this project by separating two problems that I think are easy to conflate: getting the visual to look right and getting the data to work. Rather than attempting both at once, I started by focusing entirely on the aesthetic, using Claude to help me generate p5.js code that captured the watercolour quality I was after before attaching any real data to it. The reasoning was that if I jumped straight into mapping datasets, I would end up making visual decisions under the pressure of the data's constraints, which could push the work toward something more functional and less considered than I wanted. Starting with the aesthetic gave me the freedom to experiment with colour, movement, blending, 
  and form on their own terms first. My first prompt to Claude was: "write the code for a p5.js project so that colours move and blend into each other like watercolour, artistic style.". I wanted to see what the model would interpret from a loose creative brief rather than a technical specification because I was curious whether the output would give me something unexpected.
 
+### Initial Concept Sketch
+ ![photo of my first concept sketch](../assets/week-06/mysketch.png)
+ *Photo of Initial Concept Sketch*
+
+### First Claude Prompt
   ![screenshot of my prompt](../assets/week-06/myprompt.png)
  *Screenshot of my Prompt in Claude*
+
+### Claude Generated Code
+ let pg, t = 0;
+ let blobs = [];
+ let palTimer = 0, PAL_LIFE = 900;
+
+ const palettes = [
+  ['#e63946','#f4a261','#e9c46a','#2a9d8f','#457b9d'],
+  ['#6a0572','#c77dff','#48cae4','#f72585','#ffb703'],
+  ['#03045e','#0096c7','#90e0ef','#48cae4','#ade8f4'],
+  ['#386641','#6a994e','#a7c957','#bc4749','#f2e8cf'],
+  ['#d62828','#f77f00','#fcbf49','#4cc9f0','#7209b7'],
+ ];
+ let pal, palIdx = 0, nextPalIdx = 1;
+
+ function setup() {
+  createCanvas(680, 480);
+  pg = createGraphics(680, 480);
+  pg.pixelDensity(1);
+  pg.background(250, 246, 241);
+  pal = palettes[0];
+  for (let i = 0; i < 12; i++) spawnBlob();
+  frameRate(60);
+ }
+
+ function draw() {
+  t++;
+  palTimer++;
+
+  if (palTimer > PAL_LIFE) {
+    palTimer = 0;
+    palIdx = nextPalIdx;
+    nextPalIdx = (nextPalIdx + 1) % palettes.length;
+    pal = palettes[palIdx];
+  }
+
+  if (t % 28 === 0 && blobs.length < 55) spawnBlob();
+
+  pg.noStroke();
+  pg.fill(250, 246, 241, 3);
+  pg.rect(0, 0, width, height);
+
+  for (let d of blobs) {
+    d.age++;
+    let angle = noise(d.x * 0.004, d.y * 0.004, t * 0.0006) * TWO_PI * 2;
+    d.vx += cos(angle) * 0.012;
+    d.vy += sin(angle) * 0.012 + 0.005;
+    d.vx *= 0.97;
+    d.vy *= 0.97;
+    d.x += d.vx;
+    d.y += d.vy;
+    if (d.size < d.maxSize) d.size += d.growSpeed;
+    drawBlob(d);
+  }
+
+  blobs = blobs.filter(d => d.age < d.maxAge);
+  image(pg, 0, 0);
+
+  noStroke();
+  for (let i = 0; i < 20; i++) {
+    fill(255, random(4));
+    ellipse(random(width), random(height), random(1, 2.5));
+  }
+ }
+
+ function spawnBlob() {
+  let col = random(pal);
+  let c = hexToRgb(col);
+  let margin = 60;
+  blobs.push({
+    x: random(margin, width - margin),
+    y: random(margin, height - margin),
+    r: c.r, g: c.g, b: c.b,
+    size: random(60, 180),
+    maxSize: random(120, 260),
+    alpha: random(30, 90),
+    age: 0,
+    maxAge: random(400, 700),
+    growSpeed: random(0.3, 0.9),
+    noiseOff: random(1000),
+    vx: random(-0.4, 0.4),
+    vy: random(-0.2, 0.3),
+    petals: Array.from({ length: floor(random(8, 20)) }, () => ({
+      a: random(TWO_PI),
+      d: random(0.5, 1.1),
+      s: random(0.4, 1.0),
+      ph: random(TWO_PI),
+      sp: random(0.5, 1.3)
+    }))
+  });
+ }
+
+ function drawBlob(d) {
+  let prog = d.age / d.maxAge;
+  let fadeIn = min(1, prog * 5);
+  let fadeOut = prog > 0.65 ? max(0, 1 - (prog - 0.65) / 0.35) : 1;
+  let a = d.alpha * fadeIn * fadeOut;
+  if (a < 1) return;
+  let sz = d.size;
+  let warp = noise(d.x * 0.003 + d.noiseOff, d.y * 0.003 + t * 0.0008) * 60 - 30;
+
+  pg.noStroke();
+
+  for (let layer = 6; layer > 0; layer--) {
+    let ls = sz * (layer / 6) * 1.3;
+    pg.fill(d.r, d.g, d.b, a * (layer / 6) * 0.28);
+    pg.ellipse(d.x + warp * 0.3, d.y + warp * 0.15, ls, ls * noise(d.noiseOff + layer, t * 0.001) * 0.4 + 0.8);
+  }
+
+  for (let pt of d.petals) {
+    let pulse = sin(d.age * 0.02 + pt.ph) * 0.2 + 0.8;
+    let flow = noise(d.noiseOff + pt.a, t * 0.0012) * 0.6 + 0.7;
+    let pd = sz * pt.d * pt.sp * pulse * flow;
+    let px = d.x + cos(pt.a) * pd + warp * 0.4;
+    let py = d.y + sin(pt.a) * pd * 0.85 + warp * 0.2;
+    let ps = sz * pt.s * 0.55;
+    pg.fill(d.r, d.g, d.b, a * 0.22 * fadeOut);
+    pg.ellipse(px, py, ps, ps * random(0.75, 1.25));
+  }
+
+  for (let i = 0; i < 3; i++) {
+    let bx = d.x + random(-sz * 0.4, sz * 0.4) + warp * 0.5;
+    let by = d.y + sz * random(0.3, 1.1);
+    pg.fill(d.r, d.g, d.b, a * 0.10 * fadeOut);
+    pg.ellipse(bx, by, random(sz * 0.08, sz * 0.3), random(sz * 0.04, sz * 0.18));
+  }
+ }
+
+ function hexToRgb(h) {
+  return {
+    r: parseInt(h.slice(1, 3), 16),
+    g: parseInt(h.slice(3, 5), 16),
+    b: parseInt(h.slice(5, 7), 16)
+  };
+ }
 
 ### What Claude Generated
  <iframe src="https://editor.p5js.org/akim318/full/cTABIT9Cs" width="560" height="315"></iframe>
