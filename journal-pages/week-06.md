@@ -32,7 +32,7 @@ layout: default
  ![screenshot of microorganism data location](../assets/week-06/micromap.png)
  *Screenshot of Map Showing Where on the Map the Data was Collected From*
 
-  ![screenshot of microorganism data sheet](../assets/week-06/microdata.png)
+  ![screenshot of microorganism data sheet](../assets/week-06/microsheet.png)
  *Screenshot of CSV Sheet of Microorganism Data*
 
 ### Any limitations, biases, or gaps that you notice (or anticipate, if the data is to be collected or simulated); and what these mean for your project direction
@@ -107,7 +107,7 @@ layout: default
  *Screenshot of my Prompt in Claude*
 
 ### What Claude Generated:
- <iframe src="https://editor.p5js.org/akim318/full/cTABIT9Cs"></iframe>
+ <iframe src="https://editor.p5js.org/akim318/full/cTABIT9Cs" width="560" height="315"></iframe>
 
 ## References:
  References100 for the Ocean | Print Fundraiser for Ocean Conservation. (2024). 100 for the Ocean. https://www.100fortheocean.com/ClubOcean | Bracelets & Plushes that helps Marine Animals. (2025). ClubOcean. https://clubocean.store/?tw_source=google&tw_adid=700530092804&tw_campaign=21314473092&tw_kwdid=kwd-630202960952&gad_source=1&gad_campaignid=21314473092&gbraid=0AAAAABIU6hWKUJaqNSyGY80k6qCxdhaoX&gclid=Cj0KCQjwzqXQBhD2ARIsAKrIeU8tiKCfXW-hcFbWjyorWdQqoAYnKaU6uRNwOT1jhAZ6ac9hAgeF7KcaAtGaEALw_wcB
