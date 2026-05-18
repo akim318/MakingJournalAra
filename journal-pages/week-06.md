@@ -103,10 +103,6 @@ layout: default
  I began the technical side of this project by separating two problems that I think are easy to conflate: getting the visual to look right and getting the data to work. Rather than attempting both at once, I started by focusing entirely on the aesthetic, using Claude to help me generate p5.js code that captured the watercolour quality I was after before attaching any real data to it. The reasoning was that if I jumped straight into mapping datasets, I would end up making visual decisions under the pressure of the data's constraints, which could push the work toward something more functional and less considered than I wanted. Starting with the aesthetic gave me the freedom to experiment with colour, movement, blending, 
  and form on their own terms first. My first prompt to Claude was: "write the code for a p5.js project so that colours move and blend into each other like watercolour, artistic style.". I wanted to see what the model would interpret from a loose creative brief rather than a technical specification because I was curious whether the output would give me something unexpected.
 
-### Initial Concept Sketch
- ![photo of my first concept sketch](../assets/week-06/mysketch.png)
- *Photo of Initial Concept Sketch*
-
 ### First Claude Prompt
   ![screenshot of my prompt](../assets/week-06/myprompt.png)
  *Screenshot of my Prompt in Claude*
