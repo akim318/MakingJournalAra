@@ -40,7 +40,7 @@ layout: default
  The most significant limitation is geographical. Ideally, this project would draw on data covering the entire ocean at a single point in time to show a complete, simultaneous portrait of the whole system, however, no such dataset exists. Data is collected by specific research teams, in specific locations, over specific periods, funded by specific institutions with specific priorities. The whale shark data is from the Gulf of Mexico while the microorganism records are from the Northern Norwegian Sea. These are two very different parts of the world, and combining them into a single visual means the work is not a precise scientific record of one place. I have thought carefully about whether this is a problem and my conclusion is that it might actually be a strength. The ocean is one connected system, the Gulf of Mexico and the Norwegian Sea are part of the same body of water, subject to the same pressures, responding to the same climate forces. Bringing data from both into the same visual space might communicate something true about the scale and interconnectedness of ocean ecosystems that a single location could never capture.
 
 ## Visual Research and Precedent Study
-### Claude Monet - Water Lilies Series (1896-1926)
+### Claude Monet: Water Lilies Series (1896-1926)
  A central design challenge for this project has been finding a way to represent the ocean without relying on obvious ocean imagery (no waves, no fish, no boats). That kind of literal iconography would undermine what the project is trying to do. If the data is the most honest version of the ocean, I believe the visual language needs to come from the data itself, not from a pre existing idea of what the ocean is supposed to look like. The direction I landed on is abstract and watercolour based artistic style with colour fields that bleed into each other, circles that grow and shrink like breathing, movement that drifts rather than rushes. The goal is that a viewer recognises the ocean not because they see a wave, but because they feel the quality of water by its weight, its slowness, its depth and the way light moves through it. The biggest influence on this has been Claude Monet. In the final decades of his life, Monet embarked on a series of monumental compositions depicting the lily ponds in his gardens at Giverny in northwestern France. He envisioned a circular installation of vast paintings that would envelop the viewer in an expanse of water, flora, and sky. His paintings have no horizon line, no fixed perspective and no literal reference point but from first glance, the viewer knows exactly what they are looking at; a peaceful body of water. This is exactly the relationship I want my work to create between a viewer and the ocean, immersion into the data.
 
  ![Claude Monet. Water Lilies. 1914-26](../assets/week-06/waterlily1.png)
@@ -49,7 +49,7 @@ layout: default
   ![Claude Monet. Water Lilies. 1914-26](../assets/week-06/waterlily2.png)
  *MOMA - Claude Monet. Water Lilies. 1914-26. Oil on canvas*
 
-### Bow Seat — Sea Life Hears More Than You
+### Bow Seat: Sea Life Hears More Than You
  Bow Seat is an organisation that runs an annual Ocean Awareness Contest, inviting young people worldwide to make art, poetry, film, and multimedia work exploring how human activity impacts the ocean. One of the works that caught my attention was Sealife Hears More Than You by Chenyue Zhuang, a 2025 entry from Beijing. It is an immersive multimedia installation that places viewers inside the underwater world to experience sound pollution from a marine animal's perspective. Visitors enter a completely darkened space surrounded by four projection screens creating a 360 degree visual environment. The experience begins with peaceful ocean visuals and whale songs, then gradually introduces the overwhelming industrial sounds that plague our oceans; ship engines, drilling and sonar sounds. As Zhuang describes it, the goal is to transform abstract environmental data into immediate physical experience, creating an empathetic bridge between human perception and marine animal experience. What draws me to this is the idea of making a hidden dimension of ocean life perceptible. Sound is data too, it is just data most of us cannot access without some kind of intervention or translation. Zhuang is doing with acoustics what I am trying to do with GPS coordinates and other oceanographic records: taking information that exists but is invisible to ordinary people and rendering it in a form they can actually feel. This reference reinforced the idea that the most powerful ocean art is not the work that shows you the ocean but it is the work that helps you sense something about it you could not sense before.
 
  ![screenshot of 'sea life hears more than you' exibit](../assets/week-06/sealifehearsmore.png)
@@ -57,7 +57,7 @@ layout: default
 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/CMsysqDyqLU?si=KWuupZn0-NMr1jdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
  
-### Club Ocean — Animal Tracking Bracelets and Adoption Plushies
+### Club Ocean: Animal Tracking Bracelets and Adoption Plushies
  Club Ocean sells bracelets and adoption plushies that each come with a secret access link letting you track a real named animal's movements in the ocean. What draws me to this is what it reveals about how people form emotional connections with data. Club Ocean has found a way to make animal tracking feel personal and intimate, you are not looking at a dataset, instead you are following your animal, checking where it went and caring about it. The specific quality I want to carry forward is that sense of personal relationship with an animal you will never interact with. My project is working with the same underlying data but rendering it as ambient art rather than a consumer product. The question this raises for my work is: how do I create that same feeling of connection without the explicit personalisation? 
 
  ![screenshot of bracelets for sale on club ocean website](../assets/week-06/clubocean1.png)
@@ -66,13 +66,13 @@ layout: default
  ![screenshot of plushies for sale on club ocean website](../assets/week-06/clubocean2.png)
  *Screenshot of Plushies for Sale on Club Ocean Website*
 
-### Gustav Klimt - Attersee (1900)
+### Gustav Klimt: Attersee (1900)
  Gustav Klimt's early 1900s painting Attersee serves as a key visual reference for my data portrait, being a key visual reference on how I envision and plan to present my datasets visually. His series of paintings depicting the Attersee lake in Upper Austria are characterised by a distinctive blue and green palette, yet it is his handling of brushwork and composition that makes them intriguing to the viewer without being confusing. The balance between his recognisable abstract style and an underlying sense of depth keeps the viewer engaged, which is a quality I hope to also show in my own work.
 
  ![Gustav Klimt. Attersee. 1900 - 1902. Oil on canvas](../assets/week-06/attersee.png)
  *Gustav Klimt. Attersee. 1900 - 1902. Oil on canvas*
 
-### 100 for the Ocean — Photography Print Fundraiser
+### 100 for the Ocean: Photography Print Fundraiser
  100 for the Ocean is a print fundraiser organised by photographers Paul Nicklen, Cristina Mittermeier, and Chase Teron, bringing together 100 world class photographers whose work is sold with 100% of net proceeds going to ocean conservation. Mittermeier has described the goal as not just raising funds but starting a conversation, sharing the stories of the planet, creating connection, and making a lasting impact. What draws me to this is the model it proposes: art as the mechanism for creating connection between people and the ocean, with that connection then translating into real conservation outcomes. This fundraiser strengthened my confidence in the direction I have chosen for my data portrait, as it demonstrates that art and visually compelling work can be an effective strategy for communicating ocean conservation messages.
 
  ![100 for the Ocean. 2026 Print Sale. Photographer Steve McCurry. Vietnam](../assets/week-06/vietnam.png)
@@ -106,10 +106,10 @@ layout: default
   ![screenshot of my prompt](../assets/week-06/myprompt.png)
  *Screenshot of my Prompt in Claude*
 
-### What Claude Generated:
+### What Claude Generated
  <iframe src="https://editor.p5js.org/akim318/full/cTABIT9Cs" width="560" height="315"></iframe>
 
-## References:
+## References
  References100 for the Ocean | Print Fundraiser for Ocean Conservation. (2024). 100 for the Ocean. https://www.100fortheocean.com/ClubOcean | Bracelets & Plushes that helps Marine Animals. (2025). ClubOcean. https://clubocean.store/?tw_source=google&tw_adid=700530092804&tw_campaign=21314473092&tw_kwdid=kwd-630202960952&gad_source=1&gad_campaignid=21314473092&gbraid=0AAAAABIU6hWKUJaqNSyGY80k6qCxdhaoX&gclid=Cj0KCQjwzqXQBhD2ARIsAKrIeU8tiKCfXW-hcFbWjyorWdQqoAYnKaU6uRNwOT1jhAZ6ac9hAgeF7KcaAtGaEALw_wcB
  
  Gustav Klimt | Highlights | COLLECTION | Leopold Museum. (2025). Leopoldmuseum.org. https://www.leopoldmuseum.org/en/collection/highlights/145
