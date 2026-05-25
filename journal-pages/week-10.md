@@ -14,6 +14,21 @@ layout: default
 
 *Use the format below to embed images from your assets folder:*
 
+
+
+Feedback:
+- The new theme connects with the project more but not as cutesy.
+- cool idea
+- still cool to look at but the other one looks nicer
+still not as recognisable but with contexyt it makes a lot of sense
+
+i think this is the right amount of abstract as the little round robin we did last lesson, i had gotten the feedback of its very pretty and abstract and i dont know what i am looking at but that only makes me want to look at it longer. I don’t know what it is so that’s what keeps my interest, I want to keep seeing to figure it out. i think this is the sweet spot that i will continue to work with further. 
+
+i think i will continue to make it look more pretty.
+
+
+
+
 `![Alt text](../assets/week-01/your-image.jpg)`
 `*Your caption here*`
 
