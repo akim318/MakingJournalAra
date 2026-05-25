@@ -7,11 +7,11 @@ layout: default
 [← Back to Home](../index.md)
 
 ## Documentation 
- # Introduction
+# Introduction
  Hello and welcome to Week Nine of DES250: Designing with Data! This week was all about consolidating. After weeks of experimenting and building, it was time to commit to a direction in writing by drafting a project statement that pulls everything together and reveals what still needs to be resolved. We also did another making sprint and shared our work with peers through a round robin rapid reactions session.
 
- ## Project Statement: First Draft
- ### Case Study - Xeno Computer 0.1: Labor By Tega Brain And Sam Lavigne
+## Project Statement: First Draft
+### Case Study - Xeno Computer 0.1: Labor By Tega Brain And Sam Lavigne
  Before drafting our own statements we worked in pairs on a Miro board about the Xeno Computer 0.1: Labor case study. This was a useful warm up because it asked us to think critically about how a project statement works, what it needs to do and what it reveals about the work. The work draws on labour data; specifically the hidden computational and human labour behind AI systems. The system uses a pool of 30 million Americans as its dataset. The physical system itself is composed of three random digit generators made of air pumps and coloured balls, a cluster of Raspberry Pi computers, and a dashboard displaying the status of the system and the locations of labour assignments. The work picks up from two historical precedents: the Allende administration's Cybersyn project in 1971, which attempted to create a centralised computer system to manage Chile's socialist economy before being cut short by a US backed coup, and Ursula K. Le Guin's 1974 novel The Dispossessed, which imagines an alien society where computers manage the administration of things, the division of labour, and the distribution of goods. The project argues that data is never neutral, the decision to make certain labour visible and other labour invisible is always a political choice. The work uses data to expose what systems of power prefer to keep hidden. The intended impact is to make viewers uncomfortable with their own complicity in systems they benefit from but rarely examine. Working through these questions for someone else's project made it easier to think about what my own statement needed to do. A good project statement should not just describe the work but help make a solid argument for why the work exists and what it is trying to change.
 
  To help guide our thinking and discussion, we were given four different coloured sticky note prompts to respond to. Here are my thoughts on each one:
@@ -22,15 +22,15 @@ layout: default
  ![screenshot of miro board notes](../assets/week-09/casestudynotes.png)
  *Screenshot of my Notes for Case Study Xeno Computer on Miro Board*
 
- ### Data Sources:
+### Data Sources:
  - In an extremely dystopian world, would they even consider 'arts' an important category?
  
  - What jobs are contained in the 'arts' category? Music making? Radio? Painting?
 
- ### Data And Power:
+### Data And Power:
  - A society that values your systematic ranking rather than you as a human (your data is more important than you).
 
- ### Future Scenario:
+### Future Scenario:
  - I see that at the end of this allocation system, there is a part where the system monitors the impact. This could potentially be a good system to see what fields people are naturally talented in. 
 
  - Help students who don't know what career path they want to take.
@@ -39,10 +39,10 @@ layout: default
 
  - What is the point of the system? To help prevent societal collapse in an apocalyptic world? 
 
- ### Impact:
+### Impact:
  - If location is also random, how does the system ensure that the right individual can get to the allocated location? 
 
- ## Drafting With NotebookLM
+## Drafting With NotebookLM
  I created a new notebook in NotebookLM and added the following sources:
  - My Reflective Proposal
  - All journal entries (url link to my making journal)
@@ -52,7 +52,7 @@ layout: default
  ![screenshot of sources in notebooklm](../assets/week-09/draftsources.png)
  *Screenshot of my Sources in NotebookLM*
 
- ### Template Prompt:
+### Template Prompt:
  CONTEXT: I am a designer developing a data-driven visualisation for public display. The sources provided are from my project journal, documenting experiments, technical learning, conceptual development, and visual research.
 
  TASK: Using only information from these sources, draft a project statement for a general public audience.

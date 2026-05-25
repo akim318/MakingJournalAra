@@ -243,7 +243,7 @@ layout: default
  }
 
 ### What Claude Generated
- <iframe src="https://editor.p5js.org/akim318/full/cTABIT9Cs" width="560" height="315"></iframe>
+ <iframe src="https://editor.p5js.org/akim318/full/cTABIT9Cs" height="500" width="600"></iframe>
 
 ## References
  References100 for the Ocean | Print Fundraiser for Ocean Conservation. (2024). 100 for the Ocean. https://www.100fortheocean.com/ClubOcean | Bracelets & Plushes that helps Marine Animals. (2025). ClubOcean. https://clubocean.store/?tw_source=google&tw_adid=700530092804&tw_campaign=21314473092&tw_kwdid=kwd-630202960952&gad_source=1&gad_campaignid=21314473092&gbraid=0AAAAABIU6hWKUJaqNSyGY80k6qCxdhaoX&gclid=Cj0KCQjwzqXQBhD2ARIsAKrIeU8tiKCfXW-hcFbWjyorWdQqoAYnKaU6uRNwOT1jhAZ6ac9hAgeF7KcaAtGaEALw_wcB

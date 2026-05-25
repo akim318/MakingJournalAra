@@ -7,8 +7,8 @@ layout: default
 [← Back to Home](../index.md)
 
 ## Documentation 
-
-*Include your documentation for the week. Devise your own structure of headings relevant to the required tasks and your process.*
+# Introduction
+ Hello and welcome to Week Nine of DES250: Designing with Data! 
 
 ## Images & Media
 
