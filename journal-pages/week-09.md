@@ -90,7 +90,7 @@ layout: default
  The most obvious giveaway is the adjective stacking. Phrases like "living, moving artwork" and "slowly shifting, screen based colour field visualisation" pile multiple descriptors onto a single thing, where each word ends up doing so little work that you need three of them to say anything at all. It's ironic given that the project is fundamentally about stripping things back, removing maps, labels, legends and yet the language describing it does the opposite.
 
 ### What Do You Need To Research Further?: 
- I need to look more closely at projects with similar aims; specifically how other designers and artists working with environmental or ecological data have chosen to display their work and connect with a public audience. Beyond precedents, I also want to build out a stronger visual reference bank to actively bounce ideas off rather than just describing what I want the work to look like.
+ I need to look more closely at projects with similar aims, specifically how other designers and artists working with environmental or ecological data have chosen to display their work and connect with a public audience. Beyond that, I also want to build out a stronger visual reference bank to actively bounce ideas off rather than just describing what I want the work to look like.
 
 ## My One Sentence:
  This project aims to foster an emotional relationship between humans and otherwise impersonal but relevant and important environmental constructs, such as whale migration patterns and marine life observations, in order to shift how the public thinks and acts toward our marine environments.
@@ -105,6 +105,8 @@ layout: default
  - Rework the circle system so it reads more like ocean microorganisms, so more organic, more biological moving away from the watercolour painting style.
  - Map the pulse rate and/or colours of the circles to a specific data property.
  - Produce something testable that I can get feedback on.
+ 
+ <iframe src="https://editor.p5js.org/akim318/full/Bz2xSLt1P" height="500" width="600"></iframe>
 
 ## Round Robin Rapid Reactions
  For the last activity of the class we split into two groups; Presenters and Visitors. Presenters set up at a fixed station with their project statement and making sprint outcome ready to show, while Visitors circulated around the room spending time with each person before moving on. After 20 minutes we swapped roles. I worked as a Presenter first so I noted down the reactions and questions I got from visitors as they came through.
@@ -118,7 +120,7 @@ layout: default
  
  I left my laptop open with my digital data portrait on one side of the screen and the first draft project statement on the otherside. I then left out sticky notes and a pen and wrote on a sticky note and stuck it to my laptop saying "please leave some notes!" in hopes that this would be a less confrontational way to get people to give me feedback and their questions on my project but actually this didnt work so i start talking with the people that was walking past or looking at my project and that was suprisingly more effective at getting people to talk to me about my project and tell me their thoughts, opinions and questions they had about my project.
 
- here are the feedback notes i took:
+ The feedback notes I took:
  - If it’s ocean why does it look like bacteria, it would be recognisable if the background was blue
  - Giving a voice to the inhuman 
  - Why are the shape overlapping when they are from the different parts of the ocean - what is there connection?
@@ -130,5 +132,44 @@ layout: default
  Within the feedback, a few things stood out. The bacteria comment came up more than once, people were independently making the same connection between the visual language and microorganisms, which confirmed that the direction I started exploring in Week 8 is already present in the work without me having forced it. The data is producing something that reads as biological and ocean like on its own. The comment about not knowing what it is being the thing that keeps someone's interest was the most encouraging piece of feedback I received. That is exactly the effect the work is designed to produce, something that pulls you in not because it explains itself but because it does not. The question is how to make sure that curiosity leads somewhere meaningful rather than just leaving people confused.
 
 ## Independent Study
- - updated data portrait
- - presentation for week 10
+### Project Development 
+ I continued developing the new direction of my data visualisation project, focusing on refining the visual language that I established last week. For this stage of development, I decided to focus on improving the overall aesthetic and viusal components of the portrait, rather than add the final data set I have left (sea temperature). I chose not to incorporate my final dataset, sea surface temperature, at this stage because I was not yet fully satisfied with the visual outcome of the existing data portrait. Since adding another dataset would also require introducing another visual form into the composition, I felt it was important to first spend more time refining the current visual elements and ensuring they were working effectively together. 
+ 
+ <iframe src="https://editor.p5js.org/akim318/full/vjSdHK4Nh" height="500" width="600"></iframe>
+
+### Project Statement: Second Draft
+ I am creating a living, moving visualisation that transforms scientific ocean data into a slowly shifting digital painting. Built using P5 JS, the work combines GPS tracking data of whale sharks in the Gulf of Mexico from Movebank with oceanographic records (Phytoplankton & Zooplankton) from Institute of Marine Research’s ISIS database from the northern Norwegian Sea. By layering these datasets into the same visual environment, I want to represent the ocean as an interconnected system that is constantly changing. The project imagines a near future where real time environmental biotelemetry becomes part of everyday public life, existing not only within scientific spaces but also in galleries, homes, and shared environments. Rather than presenting data through charts, maps, or infographics, I am exploring how art can create a more emotional relationship between people and environmental information. The visualisation removes labels, legends, and direct geographic references, leaving only movement, colour, rhythm, and light. Inspired by painting and abstract works, the data is translated into radial gradients and pulsing forms that behave almost like the ocean breathing in real time. I am interested in questioning how data is normally represented and consumed. Scientific data is often treated as objective and factual, yet traditional visualisations can reduce living systems into something distant or impersonal. Through abstraction, I want viewers to spend time with the work emotionally rather than analytically, allowing the data to be experienced as something alive rather than something to decode. At the same time, I recognise the challenge of balancing abstraction with comprehension, and I am continuing to explore ways of providing enough environmental context for a general audience without disrupting the immersive quality of the piece. My intention is to foster a stronger emotional relationship between humans and marine environments by embedding otherwise distant ecological systems into everyday visual culture.
+
+### Project Statement: Second Draft Reflection
+ This revised project statement reflects my project much more accurately. It goes into greater depth about my intentions and provides a more thoughtful explanation of the ideas driving the work. Compared to the previous version, it feels more insightful and better communicates the critical thinking behind my project rather than simply describing what it does. The main change I made was to the sentence, "I am exploring how abstraction can create a more emotional relationship between people and environmental information." I changed the word abstraction to art because, while I did draw inspiration from abstract art as a visual style, I am not specifically using abstraction itself as the method of representation. Instead, I am using artistic interpretation to translate data into a more emotionally engaging experience. I felt that art was a more accurate reflection of my approach and intentions. The only thing I need to remember moving forward is to update the statement once I have incorporated my final dataset, sea surface temperature data, into the visualisation. Since the current version of my data portrait does not yet include this dataset, the project statement will need a small revision to ensure it fully reflects the completed work.
+
+### Progress Report
+ We had another progress report presentation coming up, so I created a new slideshow to document the current state of my project and gather further feedback. To help communicate the evolution of the work, I included a timeline showing all the different versions of my data portraits in chronological order. This allowed both my peers and tutors to see how the project had developed over time, including the major visual changes and shifts in direction since Week 8. The presentation also included my current draft project statement, recent visual references, and a summary of the key decisions I had made throughout the development process. Since I had recently changed the artistic direction of the project, I wanted to use this opportunity to test whether the new approach was communicating what I intended.
+ 
+ The three main questions I asked for feedback on were:
+ 1. Does my new direction make sense?
+ 2. Does my data portrait still look visually appealing and aesthetic?
+ 3. Do you have any other comments or suggestions?
+
+ These questions were aimed at helping me evaluate whether the project was successfully balancing its conceptual goals with its visual qualities, while also giving others the opportunity to identify any issues or opportunities for improvement that I may have overlooked.
+
+ ![presentation slide 1](../assets/week-09/1.png)
+ *Presentation Slide One*
+
+ ![presentation slide 2](../assets/week-09/2.png)
+ *Presentation Slide Two*
+
+ ![presentation slide 3](../assets/week-09/3.png)
+ *Presentation Slide Three*
+
+ ![presentation slide 4](../assets/week-09/4.png)
+ *Presentation Slide Four*
+
+ ![presentation slide 5](../assets/week-09/5.png)
+ *Presentation Slide Five*
+
+ ![presentation slide 6](../assets/week-09/6.png)
+ *Presentation Slide Six*
+
+## AI Usage Statement
+ Anthropic. (2026). Claude (Sonnet 4.6) [AI Language Model]. Claude.AI. https://claude.ai/login
