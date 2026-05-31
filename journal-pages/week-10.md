@@ -8,7 +8,7 @@ layout: default
 
 ## Documentation 
 # Introduction
- Hello and welcome to Week Nine of DES250: Designing with Data! this week we used Padlet as our feedback platform for a structured critique session where we presented our projects to our groups, giving and receiving feedback through rotating roles, and then going out to review what other groups were working on. 
+ Hello and welcome to Week Ten of DES250: Designing with Data! this week we used Padlet as our feedback platform for a structured critique session where we presented our projects to our groups, giving and receiving feedback through rotating roles, and then going out to review what other groups were working on. 
 
 ## Progress Reports
  Our group; Madi, Alisa, Jay, and I presented our project again in a round robin slideshow format. Each person got 5 minutes to present, then the group discussed and gave feedback, with rotating roles; Chair, Technical Commenter, and Conceptual Commenter so everyone was actively engaged even when they weren't presenting. Feedback was posted to each presenter's card on our group Padlet board across four columns, and after all the live presentations we went back through the board to add anything that didn't come up in the discussion.
@@ -57,16 +57,16 @@ layout: default
  4. Critical Thinking: What aspect of their approach is most interesting? What is least developed? Is there an alternative form (e.g. physical, screen-based, interactive) that could strengthen the work? How might their future scenario or intended impact be communicated more powerfully? What else would you change or do differently if this were your project?
 
 ### Feedback I Recieved On Padlet
- ![screenshot of my padlet feedback](../assets/week-10/feedback1.png)
+ ![screenshot of my padlet feedback](../assets/week-10/myfeedback1.png)
  *Screenshot of Feedback I Recieved on Padlet for Technical Feedback*
 
- ![screenshot of my padlet feedback](../assets/week-10/feedback2.png)
+ ![screenshot of my padlet feedback](../assets/week-10/myfeedback2.png)
  *Screenshot of Feedback I Recieved on Padlet for Conceptual Feedback*
 
- ![screenshot of my padlet feedback](../assets/week-10/feedback3.png)
+ ![screenshot of my padlet feedback](../assets/week-10/myfeedback3.png)
  *Screenshot of Feedback I Recieved on Padlet for Critical Thinking*
 
- ![screenshot of my padlet feedback](../assets/week-10/feedback4.png)
+ ![screenshot of my padlet feedback](../assets/week-10/myfeedback4.png)
  *Screenshot of Feedback I Recieved on Padlet for Critical Thinking*
 
 ### Feedback I Gave On Padlet
