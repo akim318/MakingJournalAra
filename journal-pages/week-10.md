@@ -91,5 +91,38 @@ layout: default
 
 ## Independent Study
 ### Project Development
+ This week I worked on the integration of my final dataset, sea surface temperature data from the Institute of Marine Research Norway's Sørkapp Section records, completing the full data portrait. With all three data sources now present in the same visual environment, the sketch finally holds the full scope of what I originally set out to make (sea surface temperature data from the Institute of Marine Research Norway's Sørkapp Section records). I continued refining my data portrait through various tweaks and iterations, while also collecting visual inspiration to guide the creative direction of my work.
+
+### Mood Board
+ ![inspo picture 1](../assets/week-10/newinspo1.png)
+ *Visual Inspiration Picture One*
+
+ ![inspo picture 2](../assets/week-10/newinspo2.png)
+ *Visual Inspiration Picture Two*
+
+ ![inspo picture 3](../assets/week-10/newinspo3.png)
+ *Visual Inspiration Picture Three*
+
+ ![inspo picture 4](../assets/week-10/newinspo4.png)
+ *Visual Inspiration Picture Four*
+
+ ![inspo picture 5](../assets/week-10/newinspo5.png)
+ *Visual Inspiration Picture Five*
+
+ ![inspo picture 6](../assets/week-10/newinspo6.png)
+ *Visual Inspiration Picture Six*
+
+### Iteration One
+ 
+ <iframe src="https://editor.p5js.org/akim318/full/mWsPNO7es" height="500" width="600"></iframe>
+ 
+### Iteration Two
+
+ <iframe src="https://editor.p5js.org/akim318/full/bXF5_PZMA" height="500" width="600"></iframe>
+
+### Iteration Three
 
  <iframe src="https://editor.p5js.org/akim318/full/YVImpay2r" height="500" width="600"></iframe>
+
+ ## AI Usage Statement
+ Anthropic. (2026). Claude (Sonnet 4.6) [AI Language Model]. Claude.AI. https://claude.ai/login
